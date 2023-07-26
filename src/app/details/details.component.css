@@ -1,0 +1,91 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Main container */
+  article {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Listing photo */
+  .listing-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Listing description */
+  .listing-description {
+    margin-top: 20px;
+    color: #605DC8;
+  }
+  
+  .listing-description h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #605DC8;
+  }
+  
+  .listing-description p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Listing features */
+  .listing-features {
+    margin-top: 30px;
+  }
+  
+  .listing-features h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #605DC8;
+  }
+  
+  .listing-features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .listing-features li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Book Now button */
+  button.primary {
+    background-color: #605DC8;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  button.primary a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  button.primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .listing-photo {
+      max-width: 100%;
+    }
+  }
+  

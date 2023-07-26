@@ -1,0 +1,23 @@
+<article>
+    <section>
+        <div>
+            <img [src]="homeLocation.photo" alt="" class="listing-photo">
+            <div class="listing-description">
+                <h2 >{{homeLocation.name}}</h2>
+                <p>{{homeLocation.city}}, {{homeLocation.state}}</p>
+            </div>
+            <div class="price">
+                <p>Price {{homeLocation.price}}</p>
+            </div>
+            <div class="listing-features">
+                <h1 class="seaction-heading">About this house location</h1>
+                <ul>
+                    <li>Units Available: {{homeLocation?.availableUnits}}</li>
+                    <li>Wifi: {{homeLocation.wifi}}</li>
+                    <li>Laundry services: {{homeLocation.laundry}}</li>
+                </ul>
+            </div>
+            <button class="primary"><a href="/forms">Book Now</a></button>
+        </div>
+    </section>
+</article>

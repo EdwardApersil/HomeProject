@@ -1,0 +1,9 @@
+<section>
+    <div>
+        <img [src]="HomeLocation.photo" alt="">
+        <h2>{{HomeLocation.name}}</h2>
+        <p>Location {{HomeLocation.city}}, Region {{HomeLocation.state}}</p>
+        <p>Price {{HomeLocation.price}}</p>
+        <a [routerLink]="['/details', HomeLocation.id]">Read More</a>
+    </div>
+</section>
