@@ -1,0 +1,52 @@
+<form [formGroup]="signupForm" >
+    <!-- Email -->
+    <div class="form-group">
+      <label for="email">Full Name</label>
+      <input type="text" class="form-control" id="email" formControlName="fullName">
+      <div *ngIf="signupForm.get('fullName')?.hasError('required')">Email is required.</div>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" formControlName="email">
+        <div *ngIf="signupForm.get('email')?.hasError('required')">Email is required.</div>
+        <div *ngIf="signupForm.get('email')?.hasError('email')">Invalid email format.</div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Password</label>
+        <input type="password" class="form-control" id="email" formControlName="password">
+        <div *ngIf="signupForm.get('password')?.hasError('required')">Email is required.</div>
+        <div *ngIf="signupForm.get('password')?.hasError('password')">Invalid password format.</div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Phone Number</label>
+        <input type="tel" class="form-control" id="email" formControlName="phone">
+        <div *ngIf="signupForm.get('phone')?.hasError('required')">Number is required.</div>
+        <div *ngIf="signupForm.get('phone')?.hasError('phone')">Invalid number format.</div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">City</label>
+        <input type="text" class="form-control" id="email" formControlName="city">
+        <div *ngIf="signupForm.get('city')?.hasError('required')">City is required.</div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Region</label>
+        <input type="text" class="form-control" id="email" formControlName="region">
+        <div *ngIf="signupForm.get('region')?.hasError('required')">Region is required.</div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Country</label>
+        <input type="text" class="form-control" id="email" formControlName="country">
+        <div *ngIf="signupForm.get('country')?.hasError('required')">Country is required.</div>
+      </div>
+  
+    <!-- Add similar code for other form fields -->
+  
+    <button type="submit" (click)="onSubmit()" class="btn btn-primary">Sign Up</button>
+  </form>
+  

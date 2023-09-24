@@ -8,6 +8,9 @@ import { FormsComponent } from './forms/forms.component';
 import { HomeComponent } from './home/home.component';
 import { HomeLocationComponent } from './home-location/home-location.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './auth/login/login.component';
+import { SignupComponent } from './auth/signup/signup.component';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     DetailsComponent,
     FormsComponent,
     HomeComponent,
-    HomeLocationComponent
+    HomeLocationComponent,
+    LoginComponent,
+    SignupComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
