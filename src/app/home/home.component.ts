@@ -20,6 +20,7 @@ export class HomeComponent implements OnInit{
 
   ngOnInit(): void {
     this.getAllHomeLocation();
+    this.getAllUsers();
   }
 
   //get all home location
@@ -33,6 +34,14 @@ export class HomeComponent implements OnInit{
         
       }
      
+    )
+  }
+
+  getAllUsers(): void{
+    this.housingService.getUser().subscribe(
+      response => {
+        console.log(response);
+      }
     )
   }
 

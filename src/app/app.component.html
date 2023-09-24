@@ -1,9 +1,18 @@
 <main>
-  <a href="/">
-    <header>
-      <img src="/assets/logo.svg" alt="logo" aria-hidden="true">
-    </header>
-  </a>
+  <div class="nav">
+    <a href="/">
+      <header>
+        <img src="/assets/logo.svg" alt="logo" aria-hidden="true">
+      </header>
+    </a>
+    <nav>
+      <ul>
+        <li><a routerLink="/auth">Login</a></li>
+        <li><a routerLink="/signup">Sign Up</a></li>
+      </ul>
+    </nav>
+  </div>
+
   <section class="content">
     <router-outlet></router-outlet>
   </section>
