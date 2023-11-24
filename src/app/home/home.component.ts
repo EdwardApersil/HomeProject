@@ -1,7 +1,7 @@
 
 import { HousingService } from './../services/housing.service';
 import { Component, OnInit } from '@angular/core';
-import { HomeLocation } from '../homeLocation'; 
+import { HomeLocation } from '../homeLocation';
 
 @Component({
   selector: 'app-home',
@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit{
   homeLocationList: HomeLocation[] = [];
   filteredLocationList: HomeLocation[] = [];
 
-  
+
 
   constructor(private housingService: HousingService) { }
 
@@ -25,25 +25,33 @@ export class HomeComponent implements OnInit{
 
   //get all home location
 
-  getAllHomeLocation(): void{
+  getAllHomeLocation(): void {
     this.housingService.getHomeLocation().subscribe(
       data => {
         this.homeLocationList = data;
         this.filteredLocationList = data;
         console.log(data);
-        
+      },
+      error => {
+        console.error('Error fetching home locations:', error);
+        // You can add additional error handling logic here, such as showing an error message to the user.
       }
-     
-    )
+    );
   }
 
-  getAllUsers(): void{
+
+  getAllUsers(): void {
     this.housingService.getUser().subscribe(
       response => {
         console.log(response);
+      },
+      error => {
+        console.error('Error fetching users:', error);
+        // You can add additional error handling logic here, such as showing an error message to the user.
       }
-    )
+    );
   }
+
 
   //filtered location by name,city and state
 

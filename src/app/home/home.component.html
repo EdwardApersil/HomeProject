@@ -3,7 +3,7 @@
         <input type="text" placeholder="search by name, state" #filter>
         <button type="button" (click)="filteredResults(filter.value)">Search</button>
     </form>
-    <section>
+    <section class="xl:grid-cols-4 gap-5 md:grid-cols-3 sm:grid grid-cols-1">
         <app-home-location *ngFor="let HomeLocation of filteredLocationList" [HomeLocation]="HomeLocation"></app-home-location>
     </section>
 </section>

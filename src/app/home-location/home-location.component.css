@@ -5,16 +5,13 @@ body {
     margin: 0;
     padding: 0;
   }
-  
-  /* Main container */
-  section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-    /* max-width: 1200px;
-    margin: 0 auto; */
-    padding-top: 20px;
+
+  .card{
+    border: none;
+    background-color: aliceblue;
+    box-shadow: #555;
   }
+
   
   /* Card */
   section > div {
@@ -50,7 +47,7 @@ body {
   /* Read More link */
   a {
     text-decoration: none;
-    background-color: #605DC8;
+    background-color: #153e00;
     color: #fff;
     font-size: 16px;
     border: none;
