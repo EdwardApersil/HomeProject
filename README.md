@@ -1,31 +1,42 @@
-# HomesApp
+# Home Project Documentation
+Overview
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+The Home Project is an Angular application with a JSON Server as the backend. It is designed to provide a user-friendly interface for managing home-related tasks, including creating, updating, and deleting tasks.
 
-## Development server
+Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To run the Home Project locally, follow these steps:
 
-##Running the Backend
+    Clone the Repository:
+
+    bash
+
+git clone https://github.com/your-username/home-project.git
+cd home-project
+
+Install Dependencies:
+
+bash
+
+npm install
+
+Run JSON Server:
+
+bash
+
 json-server --watch db.json
 
+Run Angular App:
+Open a new terminal window and run:
 
-## Code scaffolding
+bash
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ng serve
 
-## Build
+Access the App:
+Open your browser and navigate to http://localhost:4200/. The Home Project should be running.
+Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+    Angular: The front-end framework for building the user interface.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    JSON Server: A simple backend server that uses a JSON file as a database. It provides a RESTful API for CRUD operations
