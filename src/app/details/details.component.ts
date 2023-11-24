@@ -9,8 +9,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./details.component.css']
 })
 export class DetailsComponent implements OnInit {
-
   homeLocation: any;
+  user: any;
 
   constructor(
     private route: ActivatedRoute,
@@ -25,6 +25,10 @@ export class DetailsComponent implements OnInit {
       },
       (err: any) => console.log(err)
     );
+
+    // this.users();
   }
+
+
 
 }

@@ -121,7 +121,7 @@
       "description": "Having shelter over your head is one of the necessities of life. It is, therefore, no surprise the real estate industry would always be essential. However, due to Ghana’s housing deficit, developers find means and ways to provide housing units in Ghana. The lack of affordable housing is one of the most pertinent problems Ghana faces. Therefore, this article will focus on well planned and developed estate houses built by professional developers at affordable prices and ideal locations."
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Capital Safe Towns",
       "city": "Accra",
       "state": "Greater Accra",
@@ -133,7 +133,7 @@
       "description": "Having shelter over your head is one of the necessities of life. It is, therefore, no surprise the real estate industry would always be essential. However, due to Ghana’s housing deficit, developers find means and ways to provide housing units in Ghana. The lack of affordable housing is one of the most pertinent problems Ghana faces. Therefore, this article will focus on well planned and developed estate houses built by professional developers at affordable prices and ideal locations."
     },
     {
-      "id": 9,
+      "id": 11,
       "name": "Capital Safe Towns",
       "city": "Takoradi",
       "state": "Western",
@@ -145,7 +145,7 @@
       "description": "Having shelter over your head is one of the necessities of life. It is, therefore, no surprise the real estate industry would always be essential. However, due to Ghana’s housing deficit, developers find means and ways to provide housing units in Ghana. The lack of affordable housing is one of the most pertinent problems Ghana faces. Therefore, this article will focus on well planned and developed estate houses built by professional developers at affordable prices and ideal locations."
     },
     {
-      "id": 9,
+      "id": 12,
       "name": "Capital Safe Towns",
       "city": "Koforidua",
       "state": "Eastern",
@@ -155,7 +155,68 @@
       "wifi": true,
       "laundry": true,
       "description": "Having shelter over your head is one of the necessities of life. It is, therefore, no surprise the real estate industry would always be essential. However, due to Ghana’s housing deficit, developers find means and ways to provide housing units in Ghana. The lack of affordable housing is one of the most pertinent problems Ghana faces. Therefore, this article will focus on well planned and developed estate houses built by professional developers at affordable prices and ideal locations."
+    },
+    {
+      "id": 13,
+      "name": "Capital Safe Towns",
+      "city": "Koforidua",
+      "state": "Eastern",
+      "price": "GHS 500",
+      "photo": "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
+      "availableUnits": 6,
+      "wifi": true,
+      "laundry": true,
+      "description": "Having shelter over your head is one of the necessities of life. It is, therefore, no surprise the real estate industry would always be essential. However, due to Ghana’s housing deficit, developers find means and ways to provide housing units in Ghana. The lack of affordable housing is one of the most pertinent problems Ghana faces. Therefore, this article will focus on well planned and developed estate houses built by professional developers at affordable prices and ideal locations."
+    },
+    {
+      "id": 14,
+      "name": "Capital Safe Towns",
+      "city": "Koforidua",
+      "state": "Eastern",
+      "price": "GHS 500",
+      "photo": "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
+      "availableUnits": 6,
+      "wifi": true,
+      "laundry": true,
+      "description": "Having shelter over your head is one of the necessities of life. It is, therefore, no surprise the real estate industry would always be essential. However, due to Ghana’s housing deficit, developers find means and ways to provide housing units in Ghana. The lack of affordable housing is one of the most pertinent problems Ghana faces. Therefore, this article will focus on well planned and developed estate houses built by professional developers at affordable prices and ideal locations."
+    },
+    {
+      "id": 15,
+      "name": "Capital Safe Towns",
+      "city": "Takoradi",
+      "state": "Western",
+      "price": "GHS 700",
+      "photo": "https://dve7rykno93gs.cloudfront.net/fascimos/159637d",
+      "availableUnits": 6,
+      "wifi": true,
+      "laundry": true,
+      "description": "Having shelter over your head is one of the necessities of life. It is, therefore, no surprise the real estate industry would always be essential. However, due to Ghana’s housing deficit, developers find means and ways to provide housing units in Ghana. The lack of affordable housing is one of the most pertinent problems Ghana faces. Therefore, this article will focus on well planned and developed estate houses built by professional developers at affordable prices and ideal locations."
+    },
+    {
+      "id": 16,
+      "name": "Capital Safe Towns",
+      "city": "Takoradi",
+      "state": "Western",
+      "price": "GHS 700",
+      "photo": "https://dve7rykno93gs.cloudfront.net/fascimos/159637d",
+      "availableUnits": 6,
+      "wifi": true,
+      "laundry": true,
+      "description": "Having shelter over your head is one of the necessities of life. It is, therefore, no surprise the real estate industry would always be essential. However, due to Ghana’s housing deficit, developers find means and ways to provide housing units in Ghana. The lack of affordable housing is one of the most pertinent problems Ghana faces. Therefore, this article will focus on well planned and developed estate houses built by professional developers at affordable prices and ideal locations."
+    },
+    {
+      "id": 17,
+      "name": "Capital Safe Towns",
+      "city": "Takoradi",
+      "state": "Western",
+      "price": "GHS 700",
+      "photo": "https://dve7rykno93gs.cloudfront.net/fascimos/159637d",
+      "availableUnits": 6,
+      "wifi": true,
+      "laundry": true,
+      "description": "Having shelter over your head is one of the necessities of life. It is, therefore, no surprise the real estate industry would always be essential. However, due to Ghana’s housing deficit, developers find means and ways to provide housing units in Ghana. The lack of affordable housing is one of the most pertinent problems Ghana faces. Therefore, this article will focus on well planned and developed estate houses built by professional developers at affordable prices and ideal locations."
     }
+
   ],
   "users": [
     {
@@ -178,6 +239,16 @@
       "country": "Ghana",
       "phone": "363463463",
       "id": 1
+    },
+    {
+      "fullName": "edward apersil",
+      "email": "",
+      "city": "",
+      "password": "6L5D+k#t:JSX6)}",
+      "region": "",
+      "country": "",
+      "phone": "",
+      "id": 2
     }
   ]
 }

@@ -9,7 +9,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 })
 
 export class FormsComponent {
-  housingService: any;
+  housingService: [] | any;
   @ViewChild('inputElement') inputElement!: ElementRef;
   // applyForm: any;
 
